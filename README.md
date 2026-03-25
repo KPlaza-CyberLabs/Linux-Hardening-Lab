@@ -18,3 +18,11 @@ In this lab, I practiced basic Linux system hardening by updating the system and
 
 ## What I learned
 In this lab, I strengthened my understanding of foundational Linux hardening practices. I learned how important it is to keep a system updated with the latest security patches using sudo apt update and sudo apt upgrade, and how these updates help reduce vulnerabilities. I also gained hands‑on experience configuring the UFW firewall to control inbound traffic and protect the system from unauthorized access. Allowing SSH on port 22 reinforced the idea that firewall rules must be planned carefully to maintain both security and accessibility. Overall, this lab helped me build confidence in securing a Linux environment through routine patching and basic firewall configuration.
+
+## Security Objective
+Reduce the attack surface of a Linux system by applying security patches and enforcing firewall rules to control inbound traffic. 
+
+## Risks Mitigated
+- Unpatched vulnerabilities could allow attackers to exploit known CVEs
+- Open ports increase exposure to unauthorized access and brute-force attacks
+- Lack of firewall controls allows unrestricted inbound traffic from untrusted sources
